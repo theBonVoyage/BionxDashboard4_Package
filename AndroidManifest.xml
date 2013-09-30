@@ -1,0 +1,209 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.bionx.res" android:versionCode="50" android:versionName="4" >
+
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="18" />
+    
+    <permission android:name="android.permission.REQUEST_SUPERUSER" android:protectionLevel="signature" />
+    <permission android:name="android.permission.REPORT_SUPERUSER" android:protectionLevel="signature" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher2"
+        android:label="Bionx Dashboard"
+        android:theme="@android:style/Theme.Holo">
+        <activity android:label="@string/app_name" android:name=".activity.SplashActivity" android:launchMode="standard" android:screenOrientation="portrait" android:theme="@style/Theme.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Build.prop Editor" android:name=".activity.BuildPropEditor" android:screenOrientation="portrait" android:theme="@style/HoloBackgroundTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Build.prop Editor" android:name=".activity.EditPropActivity" android:theme="@style/HoloBackgroundTheme" android:screenOrientation="portrait" android:parentActivityName="com.bionx.res.activity.EditPreferences">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.Commands" android:label="Bionx Parts" android:theme="@style/HoloBackgroundTheme" android:parentActivityName="com.bionx.res.activity.EditPreferences">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.Catalyst" android:label="Catalyst Rom" android:icon="@drawable/ic_settings_about" android:theme="@style/HoloBackgroundTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.ProcessList" android:permission="android.permission.RESTART_PACKAGES" android:label="Nx Tasker" android:screenOrientation="portrait" android:theme="@style/HoloBackgroundTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".background.Settings" android:theme="@style/HoloBackgroundTheme" android:screenOrientation="portrait" android:label="Files Preferences"></activity>
+        <activity android:name=".background.WirelessManager" android:label="Wireless Manager" android:theme="@android:style/Theme.Holo" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.ApplicationBackup" android:label="Apps" android:screenOrientation="portrait" android:theme="@style/HoloBackgroundTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.Files" android:screenOrientation="portrait" android:label="Files" android:theme="@style/HoloBackgroundTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+            	<action android:name="android.intent.action.GET_CONTENT" />
+            	<data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>.service.ShutdownServiceutdownServiceutdownServicePU.service.ShutdownService"/>
+        <activity android:name=".background.AudioPlayblack"
+	    		  android:label="@string/media_dialog"
+	    		  android:theme="@android:style/Theme.Dialog" />
+	    
+	    <activity android:name=".background.DirectoryInfo" android:enabled="true"
+	    		  android:label="@string/dir_info">
+	    	<intent-filter>
+	    		<action android:name="android.intent.action.VIEW" />
+	    		<data android:mimeType="application/manager" />
+	    		<category android:name="android.intent.category.DEFAULT" />
+	    	</intent-filter>
+	    </activity>
+        <activity android:name=".activity.AdvancezRAM" android:label="zRAM Configuration" android:screenOrientation="portrait" android:theme="@style/HoloBackgroundTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.BatteryCalibrationActivity" android:theme="@style/HoloBackgroundTheme" android:screenOrientation="portrait" android:label="Battery Optimizer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.AndroidIDToolActivity" android:theme="@style/HoloBackgroundTheme" android:screenOrientation="portrait" android:label="Android ID Tool">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.DashMainActivity" android:label="Dashboard" android:screenOrientation="portrait" android:theme="@style/HoloBackgroundTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.PowerMenu" android:label="Power Menu" android:theme="@style/HoloBackgroundTheme" android:parentActivityName="com.bionx.res.activity.EditPreferences">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.ZRAMconfigActivity" android:theme="@style/HoloBackgroundTheme" android:label="zRAM Settings" android:parentActivityName="com.bionx.res.activity.EditPreferences">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name=".activity.BionxWebs" 
+            android:label="Nx Industries" 
+            android:configChanges="keyboard|keyboardHidden|screenSize|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="http" android:host="bionx.webs.com/" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".wallpaper.WallpaperActivity" android:label="Wallpapers" android:theme="@style/HoloBackgroundTheme" android:launchMode="standard" android:screenOrientation="portrait" android:parentActivityName="com.bionx.res.activity.EditPreferences">
+            <intent-filter>
+                <action android:name="android.intent.action.SET_WALLPAPER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".wallpaper.Preview" android:configChanges="orientation|screenSize" android:theme="@style/HoloBackgroundTheme"></activity>
+        <activity android:name=".catalyst.KexecMenu" android:label="Dtrail's Menu" android:theme="@style/HoloBackgroundTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".performance.PerformanceActivity" android:label="Nx Performance" android:theme="@style/HoloBackgroundTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".performance.PackActivity"></activity>
+        <activity android:name=".performance.FileChooser"
+                  android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".performance.iResidualsActivity"
+                  android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <receiver android:name=".service.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name=".service.BootService"></service>
+        <activity android:name=".catalyst.GPUSettings" android:label="GPU Settings" android:theme="@style/HoloBackgroundTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.Tools" android:theme="@style/HoloBackgroundTheme" android:label="Bionx Tools" android:icon="@drawable/ic_launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.RomTools">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.RootTools">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LauncherManager" android:label="Home Manager" android:theme="@style/HoloBackgroundTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".about.InformationCenter" android:theme="@style/HoloBackgroundTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".about.Changelog" android:theme="@style/HoloNoActionBarBackgroundTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".about.User" android:theme="@style/HoloNoActionBarBackgroundTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
