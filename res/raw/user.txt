@@ -1,0 +1,58 @@
+﻿Bionx Dashboard 4.0 User Manual
+
+**Menu**
+--Dashboard Grid--
+--Dashboard Actionbar--
+--Dashboard Menu--
+--Information Center--
+--Bionx Tools--
+--Nx Performance--
+--Catalyst Rom--
+--Nx Power--
+--Manual--
+--Changelog--
+--Dismissal--
+
+**Chapter 1**
+--Dashboard Grid--
+
+
+**Chapter 2**
+--Dashboard Actionbar--
+
+
+**Chapter 3**
+--Dashboard Menu--
+
+
+**Chapter 4**
+--Information Center--
+
+
+**Chapter 5**
+--Bionx Tools--
+
+
+**Chapter 6**
+--Nx Performance--
+
+
+**Chapter 7**
+--Catalyst Rom--
+
+
+**Chapter 8**
+--Nx Power--
+
+
+**Chapter 9**
+--Manual--
+
+
+**Chapter 10**
+--Changelog--
+
+
+**Chapter 11**
+--Dismissal--
+
