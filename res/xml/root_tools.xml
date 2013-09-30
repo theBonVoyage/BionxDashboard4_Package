@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+	<header android:summary="Root Tools" />
+        <header
+            android:summary="Wipe Battery Stats On The Go"
+            android:title="Battery Calibrator" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.BatteryCalibrationActivity"
+                android:targetPackage="com.bionx.res" />
+        </header>
+        <header
+            android:summary="View ADB ID"
+            android:title="ID Viewer" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.AndroidIDToolActivity"
+                android:targetPackage="com.bionx.res" />
+        </header>
+        <header
+            android:summary="Tweak the zRAM"
+            android:title="Bionx VMM" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.ZRAMconfigActivity"
+                android:targetPackage="com.bionx.res" />
+            </header>
+        <header
+            android:summary="Light weight Build.prop editor"
+            android:title="Prop Editor" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.BuildPropEditor"
+                android:targetPackage="com.bionx.res" />
+        </header>
+</preference-headers>
