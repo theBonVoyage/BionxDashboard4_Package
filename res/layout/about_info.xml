@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/semc_bg" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/BaseText.About"
+            android:layout_width="fill_parent"
+            android:text="@string/app_name"
+            android:textSize="30dp"
+            android:background="@drawable/bottom_bar"
+            android:gravity="center_horizontal"
+            android:textColor="@color/holoblue"/>
+        
+        <TextView
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Developer: Nx Biotic"
+                android:id="@+id/textView11" />
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Dashboard Version: 4"
+                android:id="@+id/textView4" />
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Minimum SDK Level: 15"
+                android:id="@+id/textView10" />
+        
+        <TextView
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Max SDK Level: 18"
+                android:id="@+id/textView10" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Engine: Bionx R2"
+                android:id="@+id/textView12"
+                android:layout_gravity="center"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Firmware Host: Bionx Catalyst"
+                android:id="@+id/textView8" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="The Bionx Dashboard is a free software to use and maintained by Nx Industries to provide users the best Bionx experience for their Android powered device. Please considering donating (Either by Paypal or Google Wallet)to this project in hopes of one day being more of what we are today! Also, consider following the man with the plan, Biotic or Rgocal!"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="66dp"
+            android:layout_gravity="right|center_vertical"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/facebook" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@android:style/Widget.Holo.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/button1"
+                android:background="@drawable/googleplus" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@android:style/Widget.Holo.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/button2"
+                android:background="@drawable/twitter" />
+
+            <Button
+                android:id="@+id/button"
+                style="@android:style/Widget.Holo.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/button3"
+                android:background="@drawable/donate" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

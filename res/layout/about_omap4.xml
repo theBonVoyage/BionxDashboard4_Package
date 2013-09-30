@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/semc_bg" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/BaseText.About"
+            android:layout_width="fill_parent"
+            android:text="Omap4 Kexec Kernel Development"
+            android:textSize="30dp"
+            android:background="@drawable/bottom_bar"
+            android:gravity="center_horizontal"
+            android:textColor="@color/holoblue"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="match_parent"
+                android:layout_weight="1.12"
+                android:orientation="vertical" >
+                
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:text="Official Thread: goo.gl/2V51L" />
+                
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:text="GitHub: goo.gl/86XwV" />
+                
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:text="Kexec Wiki: goo.gl/F2bPZ" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
