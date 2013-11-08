@@ -15,44 +15,85 @@
 
 **Chapter 1**
 --Dashboard Grid--
+The Dashboard Grid is the main user interface of the Bionx Dashbaord. As the any user can see,
+this section is comprised of grid like panels, an ActionBar, and misc information about the user's device. There
+are currently 4 panels to click on. Bionx, Phandroid, XDA, and Google. If a user clicks on Bionx, This panel 
+takes the user to a webview that automatically brings up the Bionx Website where the user can locate helpfull information
+for themselfs and contact the developer directly. The XDA and Phandroid panels take the user straight to the community
+based websites through their web browser. The Google panel takes the user to Biotic's Google Play account and 
+shows off the current applications Biotic is working on and selling. Dont be affraid to take a peek! Below the 
+panels, Information about your device reside here. 
 
 
 **Chapter 2**
 --Dashboard Actionbar--
-
+The Actionbar is mainly your Action Menu in this application. There are three options for a user to choose from. 
+About, Settings, and Bionx Menu. When A User selects the About option, A dialogue box will appear prompting
+the user would like to see any further information about the application like source, who built it, license, ect. 
+If the user clicks on the Settings icon, its an action provider which takes them directly to their android settings.
+If the user clicks on the Bionx Menu, A dropbox will appear with a list of items to choose...continued on Dashboard Menu
 
 **Chapter 3**
 --Dashboard Menu--
-
+The Dashboard Menu provides users with 7 options. Bions Tools is a list of helpfull tools and Root enabled tools
+to either assist you in acomplishing a task or doing a small mod on your system. Nx Performance is strictly for Rooted
+Users and more information about this menu resides below. Catalyst Rom menu is strictly for Catalyst Rom users! Any
+options in this menu more than likely wont work for you as a user because these options are to toggle integrated
+mods in the Catalyst Rom for the Droid Razr. Nx Power is sctrictly for Rooted users as it contains a power menu
+for users to easily reboot their device to whatever preference they like. Manual is well...You made it here so
+you know what the Manual does =D. The Changelog will allow users to take a look at the Bionx Dashboard's past
+and see what changes we have made since the beginning. The Dismiss option will simply exit the user from the application.
 
 **Chapter 4**
 --Information Center--
-
+The Information Center is simply a pager menu that shows the user information about the Bionx Dashboard as well
+as its partners who inspired the options available to you and the License of the application.
 
 **Chapter 5**
 --Bionx Tools--
-
+Bionx Parts, Tasker, Nx Files, Nx App Backup, Bionx Papers, Wallpaper Manager, Home Manager, Battery Calibrater, 
+Id Viewer, Bionx VMM, and Prop Editor are tools to allow the user to make a task simpler. In terms, these are the 
+top tools and android user will find usefull on a daily basis and built in one application. Just read the summary
+of each tool to see if it fits your need of assisntance.
 
 **Chapter 6**
 --Nx Performance--
-
+Nx Performance is relatively new in this update so listen up. 
+--CPU Controls--
+Take advantage of your cpu by adjusting cpu frequency, choose your governor, and set your IO. 
+With the new user interface, users are presented with slider controls to easily find the correct 
+steps in your hardware that you want with a real time change. The best results depend on how you use 
+your device. You can find more information about your "local" governors in the cpu modules threads.
+--Time In State--
+This part of Nx Performance allows a user to monitor their cpu's usage in real time. Use this tool to 
+adjust your cpu for the best preformance.
+--Disk Info--
+Use this slide to monitor the usage of memory on your devices memory blocks.
+--CPU Info--
+This pager presents the user real time information about their devices central processing unit. 
+Everything and Anything you would want to know for future references.
+--Advance--
+Be the master of your ram/cache memory usage in your device or simply a real time minfree handler tweak. 
+Clean up the usage by adjusting for the right ratio percentage. 
+--OOMSettings--
+To sum up this pager, this selection of values is really a real time seeder module or Supercharger Script. 
+Altho automatilly enabled on boot, you can set values of seeder in this page. Adjusting for the perfect 
+ratio will allow a faster and smoother experience combined with the perfect cpu preferences.
+--Batery Info--
+Supports enabled kernel. More than likely, you wont see this feature unless your running a Kexec Enabled 
+kernel or a custom kernel on another device. This pager allows a user to optimize their battery time and 
+change the interaction between the device and its charging unit. 
+--Voltage Controls--
+Supports enabled Kernels. This pager allows a user to step up the voltage of their cpu and allow for a 
+faster voltage frequency. Working on enabling this feature on Module based patches.
 
 **Chapter 7**
 --Catalyst Rom--
+Catalyst Rom users are granted the following exclusive options. View the Changelog of your rom, Toggle init.d Scripts
+on Boot, Create an Overclock script for your GPU (Available if your running kexec), Tweak some System settings, 
+Modifiy Kernel Settings (CID), Watch for system updates, View your Xperia Launcher Settings, and a quick jump
+to the Super User Settings.
 
-
-**Chapter 8**
---Nx Power--
-
-
-**Chapter 9**
---Manual--
-
-
-**Chapter 10**
---Changelog--
-
-
-**Chapter 11**
---Dismissal--
+If you are still confused on a feature, please by all means contact me or leave a comment on Google Play! Thankyo
+for using the Bionx Dashboard!
 

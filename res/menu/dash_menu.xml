@@ -13,39 +13,24 @@
 		android:actionProviderClass="com.android.settings" 
 		android:title="Settings"/>
 	<item
-		android:id="@+id/tools"
-		android:orderInCategory="3"
-		android:showAsAction="never" 
-		android:title="Bionx Tools"/>
-	<item
-		android:id="@+id/perform"
-		android:orderInCategory="4"
-		android:showAsAction="never" 
-		android:title="Nx Performance"/>
-	<item
-		android:id="@+id/cat"
-		android:orderInCategory="5"
-		android:showAsAction="never" 
-		android:title="Catalyst Rom"/>
-	<item
-		android:id="@+id/power"
-		android:orderInCategory="6"
-		android:showAsAction="never" 
-		android:title="Nx Power"/>
-	<item
 		android:id="@+id/user"
-		android:orderInCategory="7"
+		android:orderInCategory="3"
 		android:showAsAction="never" 
 		android:title="Manual"/>
 	<item
+		android:id="@+id/info"
+		android:orderInCategory="4"
+		android:showAsAction="never" 
+		android:title="Info"/>
+	<item
 		android:id="@+id/changelog"
-		android:orderInCategory="8"
+		android:orderInCategory="5"
 		android:showAsAction="never" 
 		android:title="Changelog"/>
 	<item 
 	    android:id="@+id/exit" 
 	    android:title="Dismiss" 
 	    android:showAsAction="never" 
-	    android:orderInCategory="9"/>
+	    android:orderInCategory="6"/>
 	
 </menu>

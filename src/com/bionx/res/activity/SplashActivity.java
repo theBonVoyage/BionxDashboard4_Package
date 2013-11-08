@@ -1,9 +1,9 @@
 package com.bionx.res.activity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.view.MotionEvent;
 import android.view.Window;
 import android.view.WindowManager;
@@ -11,7 +11,7 @@ import android.widget.ImageView;
 
 import com.bionx.res.R;
 
-public class SplashActivity extends Activity {	
+public class SplashActivity extends FragmentActivity {	
 	
 	private Thread thread;
 

@@ -65,6 +65,7 @@ public class PerformanceActivity extends Activity implements Constants {
 		} else {
         
         setContentView(R.layout.nx_performance);
+        
         mPreferences = PreferenceManager.getDefaultSharedPreferences(this);
         mVoltageExists = Helpers.voltageFileExists();
 

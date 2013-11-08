@@ -5,25 +5,13 @@
     android:orientation="vertical" >
 
     <LinearLayout
+        android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:gravity="center_horizontal"
         android:orientation="vertical" >
-
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="For more information, contact the developer"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
-
-        <Button
-            android:id="@+id/okButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Exit Manual" />
 
         <ScrollView
             android:id="@+id/scrollingTextView"
@@ -35,7 +23,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
         </ScrollView>
-
     </LinearLayout>
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Exit Manual" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bottom_bar"
+        android:gravity="center_horizontal"
+        android:text="Manual"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/holoblue" />
 
 </RelativeLayout>

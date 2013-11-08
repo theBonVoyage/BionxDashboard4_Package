@@ -1,17 +1,31 @@
-Copyright (C) 2012-2013 BOSP 
-Bionx Open Source Project
-All Rights Reserved By AOSP
+﻿Copyright (C) 2012-2013 BOSP 
+
+Version 4.2 LTS
+*Updated Manifest for Android 4.4
+*Cleaned/Updated Menus
+*NEW Bionx Sliding Menu
+*NEW Fimware Details
+*NEW Info Option
+*Updated Changelog/Manual Layouts
+*Updated Res Layouts
+*Updated Res Icons
+
+Version 4.0.1
+*Cleaned up Catalyst Menu
+*Removed menus to save space
 
 Version 4 (Catalyst 3.0.1 R2)
 --Dashboard--
 *Out with the old, In with the New
 *Updated Helper Classes And Root Management
-*Updated Manifest
+*Updated Manifest (Fixed Bug For 4.3)
+*Fix Actionbar Bug For Sense Based Roms (User may need to toggle black bar in display settings)
 *Rewrote Performance Portion of Application
 *New Bionx Tools Tabbed Menu
-*AOSP Makeover
-*User Manual now in Menu
-*Changelog now in Menu
+*AOSP Icon Makeover
+*Updated Manual (Now in Menu)
+*Updated Changelog (Now in Menu)
+
 --Information Center--
 *Revamped UI With Pager Gesture Swipe
 *Fixed Donations Link
@@ -19,6 +33,7 @@ Version 4 (Catalyst 3.0.1 R2)
 *Updated License
 *Updated Source Links
 *Updated 3rd Party Information
+
 --Nx Performance--
 *NEW Nx Performance 2.0 (AOKP Performance Control Source By: Horn3t/AOKP)
 -Revamped CPU Overclock
@@ -29,15 +44,20 @@ Version 4 (Catalyst 3.0.1 R2)
 -Disk Info (Replaced Memory Info in Dashboard)
 -Voltage Control (Appears when Kernel Supports)
 -Battery Stats (Appears when Kernel Supports)
+
 --Catalyst Menu--
-*Rewrote Init.d Toggler Helper
+*Rewrote Init.d Toggle Helper
 *Updated GPU Overclocker
 *New Catalyst System Tweaks Menu
-*Navbar Toggler
+*Navbar Toggle
+
 --Bionx Tools--
+*Deleted Unnecessary and Obsolete code
 *Wallpaper Manager
 *Launcher Manager
 *Cleaned Bionx Parts
+*Tabs
+*Updated Wallpaper Manifest
 
 
 Version 3.5

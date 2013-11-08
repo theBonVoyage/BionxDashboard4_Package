@@ -32,7 +32,7 @@
                 android:gravity="center_horizontal"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Dashboard Version: 4"
+                android:text="Dashboard Version: LTS"
                 android:id="@+id/textView4" />
 
         <TextView
@@ -48,14 +48,14 @@
                 android:gravity="center_horizontal"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Max SDK Level: 18"
+                android:text="Max SDK Level: 19"
                 android:id="@+id/textView10" />
 
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Engine: Bionx R2"
+                android:text="Engine: Bionx"
                 android:id="@+id/textView12"
                 android:layout_gravity="center"/>
 
@@ -64,7 +64,7 @@
                 android:gravity="center_horizontal"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Firmware Host: Bionx Catalyst"
+                android:text="Firmware Host: Catalyst LTS"
                 android:id="@+id/textView8" />
 
         <Space

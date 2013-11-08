@@ -174,33 +174,33 @@
       
             <wallpaper
             author="Google"
-            name="AOSP1"
-            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_1.png"
-            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_1.png" />
+            name="MotoX1"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_1.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_1.jpg" />
 	    
 	    <wallpaper
             author="Google"
-            name="AOSP2"
-            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_2.png"
-            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_2.png" />
+            name="MotoX2"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_2.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_2.jpg" />
 	    
 	    <wallpaper
             author="Google"
-            name="AOSP3"
-            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_3.png"
-            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_3.png" />
+            name="MotoX3"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_3.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_3.jpg" />
 	    
 	    <wallpaper
             author="Google"
-            name="AOSP4"
-            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_4.png"
-            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_4.png" />
+            name="MotoX4"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_4.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_4.jpg" />
 	    
 	    <wallpaper
             author="Google"
-            name="AOSP5"
-            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_5.png"
-            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_5.png" />
+            name="MotoX5"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_5.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_5.jpg" />
       
       </category>
       
@@ -209,66 +209,66 @@
 	    <wallpaper
             author="Motorola"
             name="Moto"
-            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/MOTO_1.png"
-            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/MOTO_1.png" />
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/MOTO_1.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/MOTO_1.jpg" />
 	    
 	    <wallpaper
             author="Motorola"
             name="Moto"
-            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/MOTO_2.png"
-            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/MOTO_2.png" />
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/MOTO_2.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/MOTO_2.jpg" />
 	    
 	    <wallpaper
             author="Motorola"
             name="Moto"
-            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/MOTO_3.png"
-            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/MOTO_3.png" />
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/MOTO_3.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/MOTO_3.jpg" />
 	    
 	    <wallpaper
             author="Motorola"
             name="Moto"
-            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/MOTO_4.png"
-            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/MOTO_4.png" />
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/MOTO_4.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/MOTO_4.jpg" />
 	    
 	    <wallpaper
             author="Motorola"
             name="Moto"
-            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/MOTO_5.png"
-            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/MOTO_5.png" />
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/MOTO_5.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/MOTO_5.jpg" />
       
       </category>
       
       <category name="Monthly 5" >
 	
 	    <wallpaper
-            author="Unknown"
-            name="Unknown"
-            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/M1.png"
-            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/M1.png" />
+            author="1"
+            name="Uploaded From Zedge"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/M1.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/M1.jpg" />
 	    
 	    <wallpaper
-            author="Unknown"
-            name="Unknown"
-            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/M2.png"
-            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/M2.png" />
+            author="2"
+            name="Uploaded From Zedge"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/M2.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/M2.jpg" />
 	    
 	    <wallpaper
-            author="Unknown"
-            name="Unknown"
-            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/M3.png"
-            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/M3.png" />
+            author="3"
+            name="Uploaded From Zedge"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/M3.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/M3.jpg" />
 	    
 	    <wallpaper
-            author="Unknown"
-            name="Unknown"
-            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/M4.png"
-            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/M4.png" />
+            author="4"
+            name="Uploaded From Zedge"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/M4.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/M4.jpg" />
 	    
 	    <wallpaper
-            author="Unknown"
-            name="Unknown"
-            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/M5.png"
-            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/M5.png" />
+            author="5"
+            name="Uploaded From Zedge"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/M5.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/M5.jpg" />
       
       </category>
       

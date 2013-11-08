@@ -35,33 +35,4 @@
                 android:targetClass="com.bionx.res.catalyst.KexecMenu"
                 android:targetPackage="com.bionx.res" />
         </header>
-        <header
-            android:icon="@drawable/ic_update"
-            android:title="System Update" 
-            android:summary="Check for any new Updates or Patches available for Catalyst" >
-            <intent
-                android:action="android.intent.action.MAIN"
-                android:targetClass="com.otaupdater.OTAUpdaterActivity"
-                android:targetPackage="com.otaupdater" />
-        </header>
-    <header 
-        android:summary="Catalyst Accessories" />
-        <header
-            android:icon="@drawable/ic_audio"
-            android:summary="Home settings and configurations"
-            android:title="Xperia Home" >
-            <intent
-                android:action="android.intent.action.MAIN"
-                android:targetClass="com.ra3al.xperia.home.preferences.Preferences"
-                android:targetPackage="com.ra3al.launcher" />
-        </header>
-        <header
-            android:icon="@drawable/ic_security"
-            android:summary="Manage SU permissions"
-            android:title="SuperUser K" >
-            <intent
-                android:action="android.intent.action.MAIN"
-                android:targetClass="com.koushikdutta.superuser.MainActivity"
-                android:targetPackage="com.koushikdutta.superuser" />
-        </header>
 </preference-headers>

@@ -38,14 +38,10 @@ import com.bionx.res.wallpaper.koushikdutta.urlimageviewhelper.UrlImageViewHelpe
 
 public class WallpaperActivity extends Activity {
 
-    public final String TAG = "SwagPapers";
+    public final String TAG = "Papers";
     protected static final String MANIFEST = "wallpaper_manifest.xml";
     protected static final int THUMBS_TO_SHOW = 4;
 
-    /*
-     * pull the manifest from the web server specified in config.xml or pull
-     * wallpaper_manifest.xml from local assets/ folder for testing
-     */
     public static final boolean USE_LOCAL_MANIFEST = true;
 
     ArrayList<WallpaperCategory> categories = null;
@@ -213,27 +209,6 @@ public class WallpaperActivity extends Activity {
         }
 
         public void jumpTo() {
-            // View view = getLayoutInflater().inflate(R.layout.dialog_jumpto,
-            // null);
-            // final EditText e = (EditText) view.findViewById(R.id.pageNumber);
-            // AlertDialog.Builder j = new AlertDialog.Builder(this);
-            // j.setTitle(R.string.jump2);
-            // j.setView(view);
-            // j.setPositiveButton(android.R.string.ok, new
-            // DialogInterface.OnClickListener() {
-            //
-            // public void onClick(DialogInterface dialog, int which) {
-            // skipToPage(Integer.parseInt(e.getText().toString()));
-            // }
-            // });
-            // j.setNegativeButton(android.R.string.no, new
-            // DialogInterface.OnClickListener() {
-            //
-            // public void onClick(DialogInterface dialog, int which) {
-            // dialog.cancel();
-            // }
-            // });
-            // j.create().show();
         }
 
         protected View getThumbView(int i) {

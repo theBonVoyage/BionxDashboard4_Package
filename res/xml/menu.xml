@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory android:title="Utilities" >
+        <Preference
+            android:title="Root Tools" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.RootTools"
+                android:targetPackage="com.bionx.res" />
+        </Preference>
+        <Preference
+            android:title="Nx Performance" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.performance.PerformanceActivity"
+                android:targetPackage="com.bionx.res" />
+        </Preference>
+        <Preference
+            android:title="Catalyst Rom" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.Catalyst"
+                android:targetPackage="com.bionx.res" />
+        </Preference>
+        <Preference
+            android:title="Nx Power" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.PowerMenu"
+                android:targetPackage="com.bionx.res" />
+        </Preference>
+        </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Tools" >
+        <Preference
+            android:icon="@drawable/ic_spare"
+            android:summary="Spare Parts Tweaks"
+            android:title="Bionx Parts" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.Commands"
+                android:targetPackage="com.bionx.res" />
+        </Preference>
+        <Preference
+            android:icon="@drawable/ic_batch"
+            android:summary="Kill unwanted processes"
+            android:title="Tasker" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.ProcessList"
+                android:targetPackage="com.bionx.res" />
+        </Preference>
+        <Preference 
+            android:icon="@drawable/ic_files"
+            android:summary="View files accordingly in /sdcard /sdcard-ext and /system"
+            android:title="Nx Files" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.Files"
+                android:targetPackage="com.bionx.res" />
+            </Preference>
+        <Preference 
+            android:title="App Backup" 
+            android:summary="Backup your downloaded apps /sdcard/Bionx" 
+            android:icon="@drawable/ic_papers">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.ApplicationBackup"
+                android:targetPackage="com.bionx.res" />
+        </Preference>
+        <Preference 
+            android:title="Bionx Papers" 
+            android:summary="Browse the Wallpaper Manifest" 
+            android:icon="@drawable/ic_display">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.wallpaper.WallpaperActivity"
+                android:targetPackage="com.bionx.res" />
+        </Preference>
+        <Preference
+            android:title="Home Manager" 
+            android:summary="Manager Android Launchers" 
+            android:icon="@drawable/ic_papers">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.LauncherManager"
+                android:targetPackage="com.bionx.res" />
+        </Preference>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Device" >
+        <!-- Device hardware model -->
+        <Preference android:key="device_model" 
+                style="?android:preferenceInformationStyle"
+                android:title="Model"
+                android:summary="@string/device_info_default"/>
+                
+        <!-- Device firmware version -->
+        <Preference android:key="firmware_version" 
+                style="?android:preferenceInformationStyle"
+                android:title="Firmware Version"
+                android:summary="@string/device_info_default"/>
+        
+        <!-- Detailed build version -->
+        <Preference android:key="build_number" 
+                style="?android:preferenceInformationStyle"
+                android:title="Build Number"
+                android:summary="@string/device_info_default"/>
+        
+        <!-- Device Kernel version -->
+        <Preference android:key="kernel_version" 
+                style="?android:preferenceInformationStyle"
+                android:title="Kernel Base"
+                android:summary="@string/device_info_default"/>
+        
+        <!-- Detailed host -->
+        <Preference android:key="host" 
+                style="?android:preferenceInformationStyle"
+                android:title="Host"
+                android:summary="@string/device_info_default"/>
+        
+        <!-- Detailed radio -->
+        <Preference android:key="radio" 
+                style="?android:preferenceInformationStyle"
+                android:title="Radio Info"
+                android:summary="@string/device_info_default"/>
+        
+        <!-- Detailed cpu0 -->
+        <Preference android:key="cpu_0" 
+                style="?android:preferenceInformationStyle"
+                android:title="Processor 0"
+                android:summary="@string/device_info_default"/>
+        
+        <!-- Detailed cpu1 -->
+        <Preference android:key="cpu_1" 
+                style="?android:preferenceInformationStyle"
+                android:title="Processor 1"
+                android:summary="@string/device_info_default"/>
+        
+        <!-- Detailed bootloader -->
+        <Preference android:key="bootloader" 
+                style="?android:preferenceInformationStyle"
+                android:title="Bootloader"
+                android:summary="@string/device_info_default"/>
+        </PreferenceCategory>
+</PreferenceScreen>

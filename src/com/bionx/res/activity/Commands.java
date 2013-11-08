@@ -19,6 +19,7 @@ import android.preference.PreferenceScreen;
 import android.text.format.Formatter;
 
 import com.bionx.res.R;
+import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 
 public class Commands extends PreferenceActivity {
 	// Apps2SD & Dalvik-Cache options
@@ -55,6 +56,19 @@ public class Commands extends PreferenceActivity {
 
 		// Listeners
 		addPreferencesFromResource(R.xml.commands);
+		
+		SlidingMenu menu = new SlidingMenu(this);
+        menu.setMode(SlidingMenu.LEFT);
+        menu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
+        menu.setShadowWidthRes(R.dimen.shadow_width);
+        menu.setShadowDrawable(R.drawable.shadow);
+        menu.setBehindOffsetRes(R.dimen.slidingmenu_offset);
+        menu.setFadeDegree(0.35f);
+        menu.attachToActivity(this, SlidingMenu.SLIDING_CONTENT);
+        menu.setMenu(R.layout.slide_menu);
+        
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+		
 		PreferenceScreen prefSet = getPreferenceScreen();
 
 		// Setup DataApp/Dalvik-Cache Options

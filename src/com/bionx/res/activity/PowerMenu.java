@@ -15,6 +15,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.bionx.res.R;
+import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 
 public class PowerMenu extends Activity {
 	private static final String TAG = "PowerMenu";
@@ -23,6 +24,18 @@ public class PowerMenu extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.power_menu);
+        
+        SlidingMenu menu = new SlidingMenu(this);
+        menu.setMode(SlidingMenu.LEFT);
+        menu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
+        menu.setShadowWidthRes(R.dimen.shadow_width);
+        menu.setShadowDrawable(R.drawable.shadow);
+        menu.setBehindOffsetRes(R.dimen.slidingmenu_offset);
+        menu.setFadeDegree(0.35f);
+        menu.attachToActivity(this, SlidingMenu.SLIDING_CONTENT);
+        menu.setMenu(R.layout.slide_menu);
+        
+        getActionBar().setDisplayHomeAsUpEnabled(true);
 
         Button rebootRecovery = (Button) findViewById(R.id.btnRebootRecovery);
         Button btnRebootNormal = (Button) findViewById(R.id.btnRebootNormal);

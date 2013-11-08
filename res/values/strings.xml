@@ -389,4 +389,29 @@
     <string name="pref_lcd_density_summary">Adjust the DPI specified in build.prop (changes require a reboot)</string>
     <string name="pref_lcd_density_title">Screen DPI</string>
     <string name="navbar_prefs_key">navbar_prefs_key</string>
+    
+    <!-- Menu -->
+    <string name="info">About The Dashboard</string>
+    <string name="info_msg">The Dashboard is not just a toolkit for users. Its a link to keep
+        the community connected in one place. I have provided the necessary tools to keep
+        every and any android user satisfied with their android powered device.
+        &lt;br>&lt;br>
+        If you swipe your finger to the RIGHT on the Dashboard. You will open the Bionx
+        Swipe Menu which will guide you to every tool available to you as a user. The Catalyst
+        Uitility is for my users of the Bionx Catalyst Rom for the Droid Razr. Dont freight as this
+        Uitility will not harm or mess up your current rom! However in the future this option
+        will fade out for a more exciting future add on!
+        &lt;br>&lt;br>
+        The Panels on the Dashboard bring users together by directly linking you to the community
+        android sites I hang around on or use the most. Even if you arnt familiar with 
+        the communities. Feel free to say hi or check out what they have to offer! Phandroid is for
+        android users who want the constant updates for android devices and news. XDA is for
+        developers and users who want the advance experience or high priority news on Mods and Devices.
+        Android Tablet Forums is for users who own an android tablet. Github is for users who want to follow
+        and monitor my work and the groups im apart of. 
+        &lt;br>&lt;br>
+        I apologize for any bugs or empty spaces I havnt gotten caught up with yet. Been busy all over lately. 
+        Please leave feedback on Google Play if you notice an error somewhere or a suggestion to my email. Currently
+        in development with a few new features. The empty spaces will fill up with new features soon! Thankyou for useing Bionx!
+        </string>
 </resources>

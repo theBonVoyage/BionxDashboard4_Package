@@ -1,11 +1,6 @@
 package com.bionx.res.activity;
 
-import java.util.List;
-
 import android.app.Activity;
-import android.app.ActivityManager;
-import android.app.ActivityManager.MemoryInfo;
-import android.app.ActivityManager.RunningServiceInfo;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.app.Dialog;
@@ -13,7 +8,6 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.text.Html;
@@ -31,13 +25,11 @@ import com.bionx.res.R;
 import com.bionx.res.about.Changelog;
 import com.bionx.res.about.InformationCenter;
 import com.bionx.res.about.User;
-import com.bionx.res.performance.PerformanceActivity;
-import com.bionx.res.ui.Tools;
+import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.sbstrm.appirater.Appirater;
 
 public class DashMainActivity extends Activity {
 	
-	// URL Buttons
 	private Button mBtnURL1;
 	private Button mBtnURL2;
 	private Button mBtnURL3;
@@ -45,26 +37,22 @@ public class DashMainActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
+		super.onCreate(savedInstanceState);		
 		setContentView(R.layout.main);
 		
+		SlidingMenu menu = new SlidingMenu(this);
+        menu.setMode(SlidingMenu.LEFT);
+        menu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
+        menu.setShadowWidthRes(R.dimen.shadow_width);
+        menu.setShadowDrawable(R.drawable.shadow);
+        menu.setBehindOffsetRes(R.dimen.slidingmenu_offset);
+        menu.setFadeDegree(0.35f);
+        menu.attachToActivity(this, SlidingMenu.SLIDING_CONTENT);
+        menu.setMenu(R.layout.slide_menu);
+        
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+        
 		Appirater.appLaunched(this);
-		
-		TextView textView = (TextView) findViewById(R.id.system);
-		StringBuilder string = new StringBuilder("");
-
-		string.append("Model : " + Build.MODEL + "\n");
-		string.append("Android Version : " + Build.VERSION.RELEASE + "\n");
-		string.append("Rom : " + Build.DISPLAY + "\n");
-		string.append("Brand : " + Build.BRAND + "\n");
-		string.append("ID : " + Build.ID + "\n");
-		string.append("Host : " + Build.HOST + "\n");
-		string.append("Radio : " + Build.getRadioVersion() + "\n");
-		string.append("CPU0 : " + Build.CPU_ABI + "\n");
-		string.append("CPU1 : " + Build.CPU_ABI2 + "\n");
-		string.append("Bootloader : " + Build.BOOTLOADER + "\n");
-
-		textView.setText(string);
 		
 		// Web URL Buttons
 		mBtnURL1 = (Button) findViewById(R.id.url1);
@@ -105,18 +93,6 @@ public class DashMainActivity extends Activity {
 				startActivity(url4);
 			}
 		});
-
-		ActivityManager am = (ActivityManager) this
-				.getSystemService(ACTIVITY_SERVICE);
-		@SuppressWarnings("rawtypes")
-		List rs = am.getRunningAppProcesses();
-		for (int i = 0; i > rs.size(); i++) {
-			@SuppressWarnings("unused")
-			ActivityManager.RunningServiceInfo rsi = (RunningServiceInfo) rs
-					.get(i);
-			@SuppressWarnings("unused")
-			ActivityManager.MemoryInfo mi = (MemoryInfo) rs.get(i);
-		}
 	}
 	//Menu
     @Override
@@ -138,34 +114,20 @@ public class DashMainActivity extends Activity {
     	  Intent settings_menu = new Intent(Settings.ACTION_SETTINGS);
 			startActivity(settings_menu);
 			return true;
-      case R.id.tools:
-    	  final Context context0 = this;
-    	  Intent options_menu = new Intent(context0, Tools.class);
-			startActivity(options_menu);
-			return true;
-      case R.id.perform:
-    	  final Context context1 = this;
-    	  Intent perform = new Intent(context1, PerformanceActivity.class);
-			startActivity(perform);
-			return true;
-      case R.id.cat:
-    	  final Context context2 = this;
-    	  Intent cat = new Intent(context2, Catalyst.class);
-			startActivity(cat);
-			return true;
-      case R.id.power:
-    	  final Context context3 = this;
-    	  Intent power = new Intent(context3, PowerMenu.class);
-			startActivity(power);
-			return true;
       case R.id.user:
-    	  final Context context4 = this;
-    	  Intent user = new Intent(context4, User.class);
+    	  final Context context2 = this;
+    	  Intent user = new Intent(context2, User.class);
 			startActivity(user);
 			return true;
+      case R.id.info:
+    	  new AlertDialog.Builder(this)
+			.setTitle(R.string.info)
+			.setMessage(Html.fromHtml(getString(R.string.info_msg)))
+			.show();
+			return true;
       case R.id.changelog:
-    	  final Context context5 = this;
-    	  Intent changelog = new Intent(context5, Changelog.class);
+    	  final Context context3 = this;
+    	  Intent changelog = new Intent(context3, Changelog.class);
 			startActivity(changelog);
 			return true;
       case R.id.exit:
@@ -185,7 +147,7 @@ protected Dialog onCreateDialog(int id) {
         TextView aboutMsg  = new TextView(this);
         aboutMsg.setMovementMethod(LinkMovementMethod.getInstance());
         aboutMsg.setPadding(30, 30, 30, 30);
-        aboutMsg.setText(Html.fromHtml("Welcome to the Bionx Dashboard! Created by Biotic to sponsor Nx Industries which host the Bionx Rom Development! For more information, continue to the Information Center; If your cool, proceed to continue your experience."));
+        aboutMsg.setText(Html.fromHtml("Welcome to the Bionx Dashboard! Press 'Proceed' to exit this message or Press 'Information Center' to provide more information about your Bionx experience!"));
 
         Builder builder = new AlertDialog.Builder(this);
             builder.setView(aboutMsg)

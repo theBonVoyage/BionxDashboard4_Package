@@ -35,6 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/grid" />
+
     </FrameLayout>
 
     <FrameLayout
@@ -52,6 +53,7 @@
             android:background="@drawable/grid"
             android:text="Biotic&apos;s Store"
             android:textColor="@color/holoblue" />
+
     </FrameLayout>
 
     <FrameLayout
@@ -70,29 +72,11 @@
     </FrameLayout>
 
     <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_column="0"
-        android:layout_gravity="center_horizontal|top"
-        android:layout_row="1"
-        android:text="Welcome to the Bionx Dashboard"
-        android:textColor="@color/holoblue" />
-
-    <TextView
-        android:id="@+id/system"
-        android:layout_column="0"
-        android:layout_gravity="center_horizontal|top"
-        android:layout_row="10"
-        android:gravity="center_horizontal"
-        android:textColor="@color/holoblue" />
-
-    <TextView
         android:id="@+id/textView2"
         android:layout_column="0"
         android:layout_gravity="right|bottom"
         android:layout_row="10"
-        android:text="Version 4"
+        android:text="Version LTS"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="@color/holoblue" />
 
@@ -105,11 +89,12 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="@color/holoblue" />
 
-    <ImageView
-        android:id="@+id/Logo"
+    <DigitalClock
+        android:id="@+id/digitalClock1"
         android:layout_column="0"
         android:layout_gravity="center_horizontal|bottom"
         android:layout_row="10"
-        android:src="@drawable/omap" />
+        android:textColor="@color/holoblue"
+        android:text="DigitalClock" />
 
 </GridLayout>
